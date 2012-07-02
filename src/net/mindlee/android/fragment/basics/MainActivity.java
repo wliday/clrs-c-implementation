@@ -7,8 +7,6 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 
 public class MainActivity extends Activity {
-	public static final String TAG = "Shakespeare";
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -22,7 +20,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void showDetails(int index) {
-		if (isMultiPane()) {//如果是横屏(多窗口), 使用DetailsFragment
+		if (isMultiPane()) {// 如果是横屏(多窗口), 使用DetailsFragment
 			DetailsFragment details = (DetailsFragment) getFragmentManager()
 					.findFragmentById(R.id.details);
 
@@ -33,10 +31,10 @@ public class MainActivity extends Activity {
 						.beginTransaction();
 				ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
 				ft.replace(R.id.details, details);
-				ft.addToBackStack(TAG);
+				ft.addToBackStack("details");
 				ft.commit();
 			}
-		} else {//如果是竖屏，调用DetailsActivity，将当前索引值存入intent
+		} else {// 如果是竖屏，调用DetailsActivity，将当前索引值存入intent
 			Intent intent = new Intent();
 			intent.setClass(this, DetailsActivity.class);
 			intent.putExtra("index", index);

@@ -15,21 +15,20 @@ public class TitlesFragment extends ListFragment {
 		super.onAttach(myActivity);
 		this.myActivity = (MainActivity) myActivity;
 	}
-	
+
 	@Override
 	public void onActivityCreated(Bundle icicle) {
 		super.onActivityCreated(icicle);
 		if (icicle != null) {
 			mCurCheckPosition = icicle.getInt("curChoice", 0);
 		}
-		
-        setListAdapter(new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1,
-                Shakespeare.TITLES));
 
-        ListView lv = getListView();
-        lv.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-        lv.setSelection(mCurCheckPosition);
+		setListAdapter(new ArrayAdapter<String>(getActivity(),
+				android.R.layout.simple_list_item_1, Shakespeare.TITLES));
+
+		ListView lv = getListView();
+		lv.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+		lv.setSelection(mCurCheckPosition);
 
 		myActivity.showDetails(mCurCheckPosition);
 	}
