@@ -1,1 +1,1 @@
-Android中Fragment的简单实现。
+A simple but complete example of implementing multiple UI flows using fragments. 
