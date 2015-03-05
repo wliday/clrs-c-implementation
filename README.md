@@ -14,7 +14,7 @@ Describe：A simple but complete example of implementing multiple UI flows using
 ##作者信息：
 Author:         li wei
 
-HomePage:    http://mindlee.net
+HomePage:    http://mindlee.com
 
 Mail:		mindlee@me.com
 
@@ -23,6 +23,6 @@ Mail:		mindlee@me.com
 ![alt text][screenshort2]
 
 
-[1]: http://mindlee.net/2012/07/02/android-fragments-basic-knowledge/
-[screenshot1]: http://mindlee.net/wp-content/uploads/2012/07/Fragment_basics_Portrait-.png
-[screenshort2]:http://mindlee.net/wp-content/uploads/2012/07/fragment_basics_landscape.png
+[1]: http://mindlee.github.io/2012/07/02/android-fragments-basic-knowledge/
+[screenshot1]: http://mindlee.github.io/uploads/2012/07/Fragment_basics_Portrait-.png
+[screenshort2]:http://mindlee.github.io/uploads/2012/07/fragment_basics_landscape.png
