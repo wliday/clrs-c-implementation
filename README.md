@@ -16,7 +16,7 @@ Author:         li wei
 
 HomePage:    http://mindlee.com
 
-Mail:		mindlee@me.com
+Mail:		liwei.day@gmail.com
 
 #截图
 ![alt text][screenshot1]
