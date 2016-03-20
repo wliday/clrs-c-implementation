@@ -13,7 +13,9 @@ Get more information at [Android Fragments基础][1]
 
 ##### Author：
 Wei Li
+
 http://mindlee.com
+
 liwei.day[at]gmail.com
 
 ##### Screenshot / 截图
