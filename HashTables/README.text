@@ -1,0 +1,18 @@
+Title:		HashTables
+Created on:	2011/08/06
+Base on:	C/C++
+Description:	Implementation Code in Introduction to Algorithms, Second Edition
+		Chapter 11 - Hash Tables 
+
+		Contain two files:
+
+		separate_chaining.cpp
+		open_addressing.cpp
+
+		Each file is independent, more information at
+		http://mindlee.com/2011/08/06/solve-hash-conflict-links-method-and-separation-open-addressing-method/
+
+
+Author:         li wei
+HomePage:	http://mindlee.com
+Mail:		liwei.day@gmail.com
